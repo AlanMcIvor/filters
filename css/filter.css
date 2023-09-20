@@ -27,7 +27,7 @@ h1{
 
 .image-nature img, .image-animals img, .image-city img, .image-car img, .image-rocket img{
     padding: 10px;
-    width: 450px;
+    max-width: 100%;
 }
 
 button{
@@ -53,4 +53,7 @@ button{
 img{
     border-radius: 45px;
     filter: drop-shadow(0 0 0.65rem #000);
+    width: 550px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
 }
